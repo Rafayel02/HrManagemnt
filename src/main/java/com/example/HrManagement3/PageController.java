@@ -18,7 +18,6 @@ public class PageController {
         this.userService = userService;
     }
 
-
     @GetMapping("/")
     public String getHomePage() {
         return "home";

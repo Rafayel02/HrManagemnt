@@ -12,11 +12,11 @@ import java.util.List;
 
 public class UserService implements UserDetailsService {
 
-    private List<UserDetails> users = new ArrayList<>();
+    private List<HR> users = new ArrayList<>();
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        for(UserDetails user: users) {
+        for(HR user: users) {
             if(user.getUsername().equals(s)) {
                 return user;
             }
@@ -26,12 +26,13 @@ public class UserService implements UserDetailsService {
 
     public void register(String username, String password) {
         users.add(
-                new User(
+                new HR(
                         username,
                         password,
                         Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
                 )
         );
+        System.out.println("reg");
     }
 
 }
