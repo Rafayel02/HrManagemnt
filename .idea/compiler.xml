@@ -9,5 +9,8 @@
         <module name="HrManagement2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HrManagement2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
