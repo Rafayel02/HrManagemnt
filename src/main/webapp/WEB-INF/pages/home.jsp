@@ -5,9 +5,5 @@
 </head>
 <body>
     Home
-<<<<<<< HEAD
-=======
-
->>>>>>> 20bda54 (DB)
 </body>
 </html>
