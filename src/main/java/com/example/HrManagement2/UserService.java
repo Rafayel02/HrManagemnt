@@ -38,9 +38,9 @@ public class UserService implements UserDetailsService {
         );
     }
 
+
     public HR register(String username, String password) {
         KeyHolder keyHolder = new GeneratedKeyHolder();
-
         jdbcTemplate.update(connection -> {
             PreparedStatement ps = connection.prepareStatement(
                     "insert into hrs(username, password) values(?, ?)",
