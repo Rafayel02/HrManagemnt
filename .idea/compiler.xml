@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="HrManagment3" />
+=======
+        <module name="HrManagement2" />
+>>>>>>> 20bda54 (DB)
       </profile>
     </annotationProcessing>
   </component>

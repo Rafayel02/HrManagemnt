@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>HrManagment3</artifactId>
+=======
+    <artifactId>HrManagement2</artifactId>
+>>>>>>> 20bda54 (DB)
     <version>1.0-SNAPSHOT</version>
 
     <packaging>war</packaging>
@@ -31,6 +35,24 @@
             <artifactId>spring-security-config</artifactId>
             <version>4.2.20.RELEASE</version>
         </dependency>
+<<<<<<< HEAD
+=======
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>4.3.30.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.23</version>
+        </dependency>
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+>>>>>>> 20bda54 (DB)
     </dependencies>
 
 </project>

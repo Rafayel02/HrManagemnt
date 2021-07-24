@@ -1,0 +1,30 @@
+<b:beans xmlns="http://www.springframework.org/schema/security"
+         xmlns:b="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+	 http://www.springframework.org/schema/security https://www.springframework.org/schema/security/spring-security.xsd">
+
+
+    <http auto-config="true">
+        <intercept-url pattern="/" access="isAuthenticated()"/>
+        <intercept-url pattern="/register" access="permitAll()"/>
+    </http>
+
+    <b:bean id = "jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <b:property name="dataSource" ref="dataSource"/>
+    </b:bean>
+
+    <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <b:property name="url" value="jdbc:postgresql://localhost:5432/hrmanagementdatabase"/>
+        <b:property name="username" value="postgres"/>
+        <b:property name="password" value="qwerty"/>
+        <b:property name="driverClassName" value="org.postgresql.Driver"/>
+    </b:bean>
+
+    <b:bean id="userService" class="com.example.HrManagement2.UserService"/>
+
+    <authentication-manager>
+        <authentication-provider user-service-ref="userService"/>
+    </authentication-manager>
+
+</b:beans>
