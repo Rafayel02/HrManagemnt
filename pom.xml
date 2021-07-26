@@ -58,7 +58,7 @@
                 <version>3.0.4</version>
                 <configuration>
                     <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:com/example/HrManagement2/* PageController</web>
+                        <web>java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war</web>
                     </processTypes>
                 </configuration>
             </plugin>
