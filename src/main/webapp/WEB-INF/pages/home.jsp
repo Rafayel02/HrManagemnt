@@ -5,5 +5,8 @@
 </head>
 <body>
     Home
+<form action="/logout" method="get">
+    <input type="submit" value="logout">
+</form>
 </body>
 </html>

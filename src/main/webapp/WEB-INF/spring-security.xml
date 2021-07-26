@@ -12,7 +12,7 @@
         <form-login login-page="/login"
                     default-target-url="/"
                     authentication-failure-url="/login?error=true"/>
-<!--        <logout logout-success-url="/pages/login-page.jsp"/>-->
+        <logout logout-url="/logout" logout-success-url="/" />
 
     </http>
 
