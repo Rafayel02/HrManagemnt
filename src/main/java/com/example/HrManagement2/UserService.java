@@ -41,6 +41,7 @@ public class UserService implements UserDetailsService {
 
     public HR register(String username, String password) {
         KeyHolder keyHolder = new GeneratedKeyHolder();
+        createTableIfNotExists(keyHolder);
         jdbcTemplate.update(connection -> {
             PreparedStatement ps = connection.prepareStatement(
                     "insert into hrs(username, password) values(?, ?)",
@@ -53,6 +54,15 @@ public class UserService implements UserDetailsService {
 
         Number key = keyHolder.getKey();
         return new HR(key.intValue(), username, password);
+    }
+
+    private void createTableIfNotExists(KeyHolder keyHolder) {
+        jdbcTemplate.update(connection -> {
+            PreparedStatement ps = connection.prepareStatement(
+                    "CREATE TABLE IF NOT EXISTS hrs( id serial not null primary key, username text not null, password text not null );"
+            );
+            return ps;
+        }, keyHolder);
     }
 
 }
