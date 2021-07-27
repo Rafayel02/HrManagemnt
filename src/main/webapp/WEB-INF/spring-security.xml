@@ -20,20 +20,20 @@
         <b:property name="dataSource" ref="dataSource"/>
     </b:bean>
 
-    <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <b:property name="url" value="postgres://pgxsqspltfzcfx:dc918bb61bbfd418fac467c340f98994e71372e47620181be2f41b44e42c3413@ec2-23-21-4-7.compute-1.amazonaws.com:5432/db3p7f4k5savmk"/>
-        <b:property name="username" value="postgres"/>
-        <b:property name="password" value="qwerty"/>
-        <b:property name="driverClassName" value="org.postgresql.Driver"/>
-    </b:bean>
-
-
 <!--    <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-<!--        <b:property name="url" value="jdbc:postgresql://localhost:5432/hrmanagementdatabase"/>-->
+<!--        <b:property name="url" value="postgres://pgxsqspltfzcfx:dc918bb61bbfd418fac467c340f98994e71372e47620181be2f41b44e42c3413@ec2-23-21-4-7.compute-1.amazonaws.com:5432/db3p7f4k5savmk"/>-->
 <!--        <b:property name="username" value="postgres"/>-->
 <!--        <b:property name="password" value="qwerty"/>-->
 <!--        <b:property name="driverClassName" value="org.postgresql.Driver"/>-->
 <!--    </b:bean>-->
+
+
+    <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <b:property name="url" value="jdbc:postgresql://localhost:5432/hrmanagementdatabase"/>
+        <b:property name="username" value="postgres"/>
+        <b:property name="password" value="qwerty"/>
+        <b:property name="driverClassName" value="org.postgresql.Driver"/>
+    </b:bean>
 
     <b:bean id="userService" class="com.example.HrManagement2.UserService"/>
 
