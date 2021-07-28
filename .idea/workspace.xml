@@ -56,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ACAProjects/MyProjects/JAVA/JAVAProjects" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1321004" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -182,7 +182,7 @@
       <workItem from="1627150105555" duration="4156000" />
       <workItem from="1627154460442" duration="5991000" />
       <workItem from="1627201259927" duration="5567000" />
-      <workItem from="1627299166282" duration="11140000" />
+      <workItem from="1627299166282" duration="11461000" />
     </task>
     <servers />
   </component>
