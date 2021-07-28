@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c266d0-7012-41d7-94de-9838abec6ab9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,7 @@
       <workItem from="1627150105555" duration="4156000" />
       <workItem from="1627154460442" duration="5991000" />
       <workItem from="1627201259927" duration="5567000" />
-      <workItem from="1627299166282" duration="13150000" />
+      <workItem from="1627299166282" duration="13508000" />
     </task>
     <servers />
   </component>
