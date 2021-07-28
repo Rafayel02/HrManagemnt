@@ -41,7 +41,7 @@ public class UserService implements UserDetailsService {
 
     public HR register(String username, String password) {
         KeyHolder keyHolder = new GeneratedKeyHolder();
-        createTableIfNotExists(keyHolder);
+        //createTableIfNotExists(keyHolder);
         jdbcTemplate.update(connection -> {
             PreparedStatement ps = connection.prepareStatement(
                     "insert into hrs(username, password) values(?, ?)",
