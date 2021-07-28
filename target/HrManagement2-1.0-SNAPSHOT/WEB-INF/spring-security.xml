@@ -21,11 +21,19 @@
     </b:bean>
 
     <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <b:property name="url" value="jdbc:postgresql://localhost:5432/hrmanagementdatabase"/>
-        <b:property name="username" value="postgres"/>
-        <b:property name="password" value="qwerty"/>
+        <b:property name="url" value="#{systemEnvironment['heroku_database_link']}"/>
+        <b:property name="username" value="#{systemEnvironment['heroku_posgres_username']}"/>
+        <b:property name="password" value="dc918bb61bbfd418fac467c340f98994e71372e47620181be2f41b44e42c3413"/>
         <b:property name="driverClassName" value="org.postgresql.Driver"/>
     </b:bean>
+
+
+<!--    <b:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <b:property name="url" value="jdbc:postgresql://localhost:5432/hrmanagementdatabase"/>-->
+<!--        <b:property name="username" value="postgres"/>-->
+<!--        <b:property name="password" value="qwerty"/>-->
+<!--        <b:property name="driverClassName" value="org.postgresql.Driver"/>-->
+<!--    </b:bean>-->
 
     <b:bean id="userService" class="com.example.HrManagement2.UserService"/>
 
