@@ -10,7 +10,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c266d0-7012-41d7-94de-9838abec6ab9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/classes/com/example/HrManagement2/HR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/classes/com/example/HrManagement2/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/classes/com/example/HrManagement2/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/google-collections-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/jdom-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/jsr305-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/junit-3.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-manager-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-compiler-plugin-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-core-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-error-diagnostics-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-model-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-monitor-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-api-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-descriptor-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-parameter-documenter-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-registry-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-profile-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-project-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-repository-metadata-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-settings-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-shared-incremental-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-shared-utils-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/maven-toolchain-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-classworlds-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-compiler-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-compiler-javac-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-compiler-manager-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-container-default-1.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/plexus-utils-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/slide-webdavlib-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.2.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.2.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.2.20.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.30.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/wagon-provider-api-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/wagon-webdav-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/xbean-reflect-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/lib/xml-im-exporter-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/pages/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/pages/login-page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/pages/register-page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/spring-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HrManagement2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/HrManagement2/HR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/HrManagement2/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/HrManagement2/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +257,7 @@
       <workItem from="1627150105555" duration="4156000" />
       <workItem from="1627154460442" duration="5991000" />
       <workItem from="1627201259927" duration="5567000" />
-      <workItem from="1627299166282" duration="13508000" />
+      <workItem from="1627299166282" duration="14655000" />
     </task>
     <servers />
   </component>
